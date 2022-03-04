@@ -9,3 +9,6 @@ We increase the receptive field of convolution layers using dilation. Convolutio
 ### 1.1 [TCN-based forecasting](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/blob/main/TCN/TCN_Forecasting.ipynb) 
 
 ![TCN Forecasting](TCN/TCN_Forecasting.png)
+
+### 1.2 [TCN and CNN for Human Activity Recognition](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/blob/main/TCN/TCN_Human_Activity_UCI.ipynb)
+An example to show training of human activity models using the intertial sensors. The provided notebook shows comparisons of CNNs and TCN models with TCN model having as low as 10k parameters. 
