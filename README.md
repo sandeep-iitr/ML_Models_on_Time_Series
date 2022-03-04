@@ -1,5 +1,8 @@
 # ML Models on Time Series
 Fun explorations for ML models on Time Series Datasets (Inertial sensors, among others)
+- Current classifiers in Notebooks: TCN, LSTM, MLP, CNN. 
+- Hyperparameter tuning showcases using Bayesian Optimization.
+- Datasets: Opensource datasets and datasets introduced by my past papers.
 
 ## 1. TCN (Temporal Convolutions Network)
 We increase the receptive field of convolution layers using dilation. Convolutions don't use the future inputs to make it usable in real-time settings, so it is causal. The folder contains working examples to show this in practice. How to find optimal hyperparameters; I will add a state-of-the-art [Mango](https://github.com/ARM-software/mango) optimizer example for this in the future. Some of hyperparameters used by me are available [here](https://github.com/ARM-software/mango/blob/master/benchmarking/Parameter_Spaces_Evaluated.ipynb). Credits: The TCN implementation in this repo uses [Keras-TCN](https://github.com/philipperemy/keras-tcn) library due to its ease of usage.
