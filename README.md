@@ -14,3 +14,10 @@ We increase the receptive field of convolution layers using dilation. Convolutio
 An example to show training of human activity models using the intertial sensors. The provided notebook shows comparisons of CNNs and TCN models with TCN model having as low as 10k parameters. 
 
 ![Human Activity](TCN/human_activity.jpg)
+
+## 2. LSTM (Long Short-term Memory)
+Some examples of LSTM's training on the inertial/time-series datasets. Training deeper LSTM's is slow, and may take a long time due to their hidden-state nature. 
+
+### 2.1 [LSTM for Human Activity Recognition Notebook](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/blob/main/LSTM/LSTM_Human_Activity_UCI.ipynb)
+This is a simpler notebook with an easy to understand process. 
+More complex notebooks with state-of-the-art reported results using richer data augmentations are available from my paper [codes](https://github.com/nesl/Robust-Deep-Learning-Pipeline).
