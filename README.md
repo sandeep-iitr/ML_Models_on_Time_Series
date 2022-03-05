@@ -24,3 +24,8 @@ Some examples of LSTM's training on the inertial/time-series datasets. Training 
 ### 2.1 [LSTM for Human Activity Recognition Notebook](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/blob/main/LSTM/LSTM_Human_Activity_UCI.ipynb)
 This is a simpler notebook with an easy to understand process. 
 More complex notebooks with state-of-the-art reported results using richer data augmentations are available from my paper [codes](https://github.com/nesl/Robust-Deep-Learning-Pipeline).
+
+### 2.2 [LSTM for Predicting next Word](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/blob/main/RNN/RNN_Quick_start.ipynb)
+LSTM predicting next word in a sequence. Trained on patents datasets. Credits: Based on the [github repo](https://github.com/WillKoehrsen/recurrent-neural-networks).
+
+![LSTM Network](RNN/RNN_on_Text.png)
