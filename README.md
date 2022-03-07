@@ -29,3 +29,8 @@ More complex notebooks with state-of-the-art reported results using richer data 
 LSTM predicting next word in a sequence. Trained on patents datasets. Credits: Based on the [github repo](https://github.com/WillKoehrsen/recurrent-neural-networks).
 
 ![LSTM Network](RNN/RNN_on_Text.png)
+
+## 3. [Time-Series Encoder-Decoder](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/tree/main/CNN)
+A few encoder-decoder architectures for time-series.
+
+![CNN Network](CNN/Timeseries.png)
