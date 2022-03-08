@@ -1,6 +1,6 @@
 # ML Models on Time Series
 A Fun repo maintained to teach ML models on Time Series/sequences.
-- Current classifiers in Notebooks: TCN, LSTM, MLP, CNN. 
+- Current classifiers in Notebooks: TCN, LSTM, MLP, CNN, Transformers.  
 - Hyperparameter tuning showcases using Bayesian Optimization.
 - Datasets: Opensource datasets and datasets introduced by my past papers.
 
