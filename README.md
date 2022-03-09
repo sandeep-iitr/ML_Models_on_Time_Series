@@ -35,7 +35,7 @@ A few encoder-decoder architectures for time-series.
 
 ![CNN Network](CNN/Timeseries.png)
 
-## [fusion of Modalities](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/tree/main/Fushion)
+## 4. [Fusion of Modalities](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/tree/main/Fushion)
 Here, I will introduce the fushion of different sensing modalities to achieve higher performance.
 In cases, where we have access to multiple sensors observing the same event/activity/phenomenon, fusion often
 helps to improve overall appications
@@ -45,3 +45,4 @@ helps to improve overall appications
 We will start with simple examples, however, in real deployments fusion is challenging. In my papers, we show fusing modalities 
 depends a lot of timing behavior of sensors.
 
+![Time Augmentation](Fushion/timing_augmentation.png)
