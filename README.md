@@ -34,3 +34,14 @@ LSTM predicting next word in a sequence. Trained on patents datasets. Credits: B
 A few encoder-decoder architectures for time-series.
 
 ![CNN Network](CNN/Timeseries.png)
+
+## [fusion of Modalities](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/tree/main/Fushion)
+Here, I will introduce the fushion of different sensing modalities to achieve higher performance.
+In cases, where we have access to multiple sensors observing the same event/activity/phenomenon, fusion often
+helps to improve overall appications
+- Sensors can compliment each other. 
+- Each sensor have different cost, so they can replace each other.
+
+We will start with simple examples, however, in real deployments fusion is challenging. In my papers, we show fusing modalities 
+depends a lot of timing behavior of sensors.
+
