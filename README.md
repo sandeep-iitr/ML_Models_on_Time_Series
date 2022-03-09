@@ -42,7 +42,12 @@ helps to improve overall appications
 - Sensors can compliment each other. 
 - Each sensor have different cost, so they can replace each other.
 
-We will start with simple examples, however, in real deployments fusion is challenging. In my papers, we show fusing modalities 
+We will start with a simple example of Human Activity Recognition:
+- *Single modality: Acceleration only*: 84% Test accuracy ([Notebook](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/blob/main/Fushion/Fusion_Getting_Started_1.ipynb))
+- *Single modality: Gyro only*: 86% Test accuracy ([Notebook](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/blob/main/Fushion/Fusion_Getting_Started_1.ipynb))
+- *Fusion based model: Both Acc and Gyro*: 92% Test accuracy ([Notebook](https://github.com/sandeep-iitr/ML_Models_on_Time_Series/blob/main/Fushion/Fusion_Getting_Started_2.ipynb))
+ 
+In real deployments fusion is challenging. In my [papers](https://drive.google.com/file/d/18OO23Xc9lwbAkR8w6abiaC9w_DFv2USs/view), we show fusing modalities 
 depends a lot of timing behavior of sensors.
 
 ![Time Augmentation](Fushion/timing_augmentation.png)
